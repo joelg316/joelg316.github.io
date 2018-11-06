@@ -18,11 +18,13 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   How technology affects us
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://joelginsberg.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: big_words_are_cool
+github_username: joelg316
 
 # Build settings
+collections:
+authors:
 markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
